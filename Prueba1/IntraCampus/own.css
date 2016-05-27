@@ -1,0 +1,48 @@
+@CHARSET "ISO-8859-1";
+.nv--img--small{
+	max-width: 30px;
+	margin-right: 15px;
+}
+.split{
+	display:block;
+}
+
+.middle{
+	margin: 0 auto;
+}
+.right{
+	margin: 0 0 0 auto;
+}
+.left {
+	margin: 0 auto 0 0;
+}
+
+.demo-card-square.mdl-card {
+  /*width: 320px;*/
+  height: 320px;
+}
+.demo-card-square > .capacitaciones{
+  color: #fff;
+  background: url('http://campus.unla.edu.ar/wp-content/themes/tyros/inc/images/cta/presenteunla.png') bottom right 10% no-repeat #ff0080;
+}
+.demo-card-square > .aulas{
+  color: #fff;
+  background: url('http://campus.unla.edu.ar/wp-content/themes/tyros/inc/images/cta/proyectos.png') bottom right 10% no-repeat #0000ff;
+}
+.demo-card-square > .usuarios{
+  color: #fff;
+  background: url('http://campus.unla.edu.ar/wp-content/themes/tyros/inc/images/cta/estudiantes.png') bottom right 10% no-repeat #ff8000;
+}
+
+.header{
+	height: 80px;
+	background-color: #ffffff;
+	/*background: url('http://thumbs.dreamstime.com/t/grey-triangle-vector-background-pattern-geometric-mosaic-card-document-template-hipster-flat-surface-design-aztec-chevron-zig-59949573.jpg');*/
+}
+.header img{
+	/*max-width: 80px;*/
+}
+.background{
+	background: url('http://www.ungs.edu.ar/ms_idh/wp-content/uploads/2016/04/UNGS-Campus-1.jpg')
+	
+}
