@@ -37,12 +37,16 @@
 .header{
 	height: 80px;
 	background-color: #ffffff;
-	/*background: url('http://thumbs.dreamstime.com/t/grey-triangle-vector-background-pattern-geometric-mosaic-card-document-template-hipster-flat-surface-design-aztec-chevron-zig-59949573.jpg');*/
+	border-bottom: 3px dashed #18479A;
 }
-.header img{
-	/*max-width: 80px;*/
-}
+
 .background{
-	background: url('http://www.ungs.edu.ar/ms_idh/wp-content/uploads/2016/04/UNGS-Campus-1.jpg')
-	
+	background-color: #F1F4F8;
+}
+.mdl-layout__header-row {
+	background-color: #72BCF7;
+}
+.mdl-layout__header-row img{
+	margin: 0 0 0 auto;
+	max-width: 100px;
 }
