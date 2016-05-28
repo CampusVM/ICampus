@@ -1,60 +1,72 @@
 @CHARSET "ISO-8859-1";
-.nv--img--small{
+
+.nv--img--small {
 	max-width: 30px;
 	margin-right: 15px;
 }
-.split{
-	display:block;
+
+.split {
+	display: block;
 }
 
-.middle{
+.middle {
 	margin: 0 auto;
 }
-.right{
+
+.right {
 	margin: 0 0 0 auto;
 }
+
 .left {
 	margin: 0 auto 0 0;
 }
 
 .demo-card-square.mdl-card {
-  /*width: 320px;*/
-  height: 320px;
-}
-.demo-card-square > .capacitaciones{
-  color: #fff;
-  background: url('../IntraCampus/i/capacitaciones-nocolor.png') bottom right 10% no-repeat #673AB7;
-}
-.demo-card-square > .aulas{
-  color: #fff;
-  background: url('../IntraCampus/i/aulas-nocolor.png') bottom right 10% no-repeat #009688;
-}
-.demo-card-square > .usuarios{
-  color: #fff;
-  background: url('../IntraCampus/i/usuarios-nocolor.png') bottom right 10% no-repeat #2196F3;
+	height: 320px;
 }
 
-.header{
+.demo-card-square>.capacitaciones {
+	color: #fff;
+	background: url("../IntraCampus/i/capacitaciones-nocolor.png") bottom
+		right 10% no-repeat #673AB7;
+}
+
+.demo-card-square>.aulas {
+	color: #fff;
+	background: url("../IntraCampus/i/aulas-nocolor.png") bottom right 10%
+		no-repeat #009688;
+}
+
+.demo-card-square>.usuarios {
+	color: #fff;
+	background: url("../IntraCampus/i/usuarios-nocolor.png") bottom right
+		10% no-repeat #2196F3;
+}
+
+.header {
 	height: 80px;
 	background-color: #ffffff;
 	border-bottom: 3px solid #00A6DF;
 }
 
-.background{
-background: url('../IntraCampus/i/background.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-	
+.background {
+	background: url("../IntraCampus/i/background.jpg") no-repeat center
+		center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
+
 .mdl-layout__header-row {
 	background-color: #72BCF7;
 }
-.mdl-layout__header-row img{
+
+.mdl-layout__header-row img {
 	margin: 0 0 0 auto;
 	max-width: 100px;
 }
+
 .mdl-button {
 	text-align: left;
 }
