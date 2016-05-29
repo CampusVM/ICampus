@@ -1,10 +1,70 @@
 @CHARSET "ISO-8859-1";
 
-.nv--img--small {
+/*INDEX CLASSES*/
+.index {
+	background: url("../IntraCampus/i/background.jpg") no-repeat center
+		center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.index header {
+	background-color: #ffffff;
+}
+.index header img{
+	margin: 5px auto 5px 15px;
+}
+
+.index .demo-card-square.mdl-card {
+	height: 320px;
+}
+
+.index .demo-card-square>.usuarios {
+	color: #fff;
+	background: url("../IntraCampus/i/usuarios-nocolor.png") bottom right
+		10% no-repeat #2196F3;
+}
+
+.index .demo-card-square>.aulas {
+	color: #fff;
+	background: url("../IntraCampus/i/aulas-nocolor.png") bottom right 10%
+		no-repeat #009688;
+}
+
+.index .demo-card-square>.capacitaciones {
+	color: #fff;
+	background: url("../IntraCampus/i/capacitaciones-nocolor.png") bottom
+		right 10% no-repeat #673AB7;
+}
+
+.index .mdl-button {
+	text-align: left;
+}
+
+.index .mdl-mini-footer__left-section img {
+	height: 40px;
+	float: left;
+	margin-right: 10px;
+}
+
+/*FORMULARIO DE CREACION DE AULA*/
+.creacion .nv--img--small {
 	max-width: 30px;
 	margin-right: 15px;
 }
 
+.creacion .mdl-layout__header-row {
+	background-color: #527EDD;
+}
+
+.creacion .mdl-layout__header-row img {
+	margin: 0 0 0 auto;
+	max-width: 100px;
+}
+
+/*CLASES GENERALES*/
 .split {
 	display: block;
 }
@@ -19,59 +79,4 @@
 
 .left {
 	margin: 0 auto 0 0;
-}
-
-.demo-card-square.mdl-card {
-	height: 320px;
-}
-
-.demo-card-square>.usuarios {
-	color: #fff;
-	background: url("../IntraCampus/i/usuarios-nocolor.png") bottom right
-		10% no-repeat #2196F3;
-}
-
-.demo-card-square>.aulas {
-	color: #fff;
-	background: url("../IntraCampus/i/aulas-nocolor.png") bottom right 10%
-		no-repeat #009688;
-}
-
-.demo-card-square>.capacitaciones {
-	color: #fff;
-	background: url("../IntraCampus/i/capacitaciones-nocolor.png") bottom
-		right 10% no-repeat #673AB7;
-}
-
-.header {
-	background-color: #ffffff;
-	border-bottom: 3px solid #00A6DF;
-}
-
-.background {
-	background: url("../IntraCampus/i/background.jpg") no-repeat center
-		center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-.mdl-layout__header-row {
-	background-color: #72BCF7;
-}
-
-.mdl-layout__header-row img {
-	margin: 0 0 0 auto;
-	max-width: 100px;
-}
-
-.mdl-button {
-	text-align: left;
-}
-
-.mdl-mini-footer__left-section img {
-	height: 40px;
-	float: left;
-	margin-right: 10px;
 }
