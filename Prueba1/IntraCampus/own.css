@@ -2,19 +2,18 @@
 
 /*INDEX CLASSES*/
 .index {
-	background: url("../IntraCampus/i/background.jpg") no-repeat center
-		center fixed;
+	background: url("../IntraCampus/i/background.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: cover;*/
 }
 
 .index header {
 	background-color: #ffffff;
 }
 .index header img{
-	margin: 5px auto 5px 15px;
+	margin: 10px auto 10px 15px;
 }
 
 .index .demo-card-square.mdl-card {
