@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Gestión Campus</title>
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet"
+	href="https://code.getmdl.io/1.1.3/material.blue-purple.min.css" />
+<link rel="stylesheet" href="own.css" />
+<script defer src="https://code.getmdl.io/1.1.3/material.min.js"
+	type="text/javascript"></script>
+</head>
+<body>
+	<div
+		class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+            mdl-layout--fixed-tabs mdl-layout--fixed-drawer alta-usuario">
+		<header class="mdl-layout__header">
+			<!-- Title -->
+			<div class="mdl-layout__header-row">
+				<!-- <span class="mdl-layout-title"></span> -->
+				<img src="../GestionCampus/i/logo-corto-blanco.png" alt="">
+			</div>
+
+			<!-- Tabs -->
+			<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+				<a href="#fixed-tab-1" class="mdl-layout__tab is-active">Alta</a> <a
+					href="#fixed-tab-2" class="mdl-layout__tab">Matriculación</a><a
+					href="#fixed-tab-3" class="mdl-layout__tab">Modificación</a>
+			</div>
+		</header>
+		<div class="mdl-layout__drawer">
+			<span class="mdl-layout-title">GESTIÓN CAMPUS</span>
+			<nav class="mdl-navigation">
+				<a class="mdl-navigation__link" href="alta-usuario.html"><img
+					class="nv--img--small" src="../GestionCampus/i/usuarios.png" alt="">Usuarios</a>
+				<a class="mdl-navigation__link" href="aula-creacion.html"><img
+					class="nv--img--small" src="../GestionCampus/i/aulas.png" alt="">Aulas</a>
+				<a class="mdl-navigation__link" href="precencial.html"><img
+					class="nv--img--small" src="../GestionCampus/i/capacitaciones.png"
+					alt="">Capacitaciones</a>
+			</nav>
+		</div>
+		<main class="mdl-layout__content">
+		<section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+			<div class="page-content">
+				<div class="mdl-grid">
+					<div class="mdl-cell mdl-cell--1-col"></div>
+					<div class="mdl-cell mdl-cell--10-col">
+						<h3>Solicitud de Matriculación de Usuarios</h3>
+						<span class="spacer"></span>
+						<div class="llamado">
+							Guía:<br />Por favor siga las recomendaciones mostradas mas abajo
+						</div>
+						<span class="spacer"></span>
+						<div class="mdl-grid">
+							<div class="mdl-cell mdl-cell--10-col">
+								<img src="../GestionCampus/i/guia-transparente.png" alt=""
+									class="img-guia"> <span class="spacer"></span>
+							</div>
+							<div class="mdl-cell mdl-cell--2-col"></div>
+							<div class="mdl-cell mdl-cell--5-col">
+								<div class="demo-card-square mdl-card mdl-shadow--2dp">
+									<div class="mdl-card__title mdl-card--expand">
+										<h2 class="mdl-card__title-text">Descargar</h2>
+									</div>
+									<div class="mdl-card__supporting-text">Si lo necesita, aquí usted puede
+										obtener la planilla de Excel que debe completar</div>
+									<div class="mdl-card__actions mdl-card--border">
+										<div id="tt1" class="icon material-icons">cloud_download</div>
+										<div class="mdl-tooltip mdl-tooltip--right" for="tt1">
+											<strong>Bajar archivo.xlsx</strong>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mdl-cell mdl-cell--5-col">
+								<div class="demo-card-square mdl-card mdl-shadow--2dp">
+									<div class="mdl-card__title mdl-card--expand">
+										<h2 class="mdl-card__title-text">Subir</h2>
+									</div>
+									<div class="mdl-card__supporting-text">Aquí usted debe
+										subir su archivo Excel con la lista de alumnos a matricular</div>
+									<div class="mdl-card__actions mdl-card--border">
+										<div id="tt2" class="icon material-icons">cloud_upload</div>
+										<div class="mdl-tooltip mdl-tooltip--right" for="tt2">
+											<strong> Subir archivo.xlsx</strong>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mdl-cell mdl-cell--2-col"></div>
+						</div>
+						<span class="spacer"></span>
+						<button
+							class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+							ENVIAR</button>
+					</div>
+					<div class="mdl-cell mdl-cell--1-col"></div>
+				</div>
+			</div>
+		</section>
+		<section class="mdl-layout__tab-panel" id="fixed-tab-2">
+			<div class="page-content">EN CONSTRUCCIÓN</div>
+		</section>
+		<section class="mdl-layout__tab-panel" id="fixed-tab-3">
+			<div class="page-content">EN CONSTRUCCIÓN</div>
+		</section>
+		</main>
+	</div>
+</body>
+</html>
