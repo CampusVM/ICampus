@@ -34,6 +34,7 @@
 .mdl-layout__header-row img {
 	margin: 0 0 0 auto;
 	max-width: 100px;
+	max-height: 48px;
 }
 
 .info-llamado {
@@ -42,7 +43,6 @@
 	background-color: #fcecff;
 	padding: 20px;
 	margin: 0 auto 0 0;
-	/*max-width: 600px;*/
 	border-radius: 10px 10px 10px 10px;
 	-moz-border-radius: 10px 10px 10px 10px;
 	-webkit-border-radius: 10px 10px 10px 10px;
@@ -50,13 +50,11 @@
 
 /*INDEX CLASSES*/
 .index {
-	/*background: url("../Prueba1/i/background.jpg") no-repeat center center fixed;*/
 	background-color: #ebebeb;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	*/
 }
 
 .index header {
