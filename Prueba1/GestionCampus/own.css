@@ -36,6 +36,18 @@
 	max-width: 100px;
 }
 
+.info-llamado {
+	display: inline-block;
+	border: 1px dashed #e348ff;
+	background-color: #fcecff;
+	padding: 20px;
+	margin: 0 auto 0 0;
+	/*max-width: 600px;*/
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+
 /*INDEX CLASSES*/
 .index {
 	/*background: url("../GestionCampus/i/background.jpg") no-repeat center center fixed;*/
@@ -91,7 +103,7 @@
 
 /*FORMULARIO DE ALTA DE USUARIOS*/
 .alta-usuario .demo-card-square.mdl-card {
-	width: 250px;
+	width: 240px;
 	height: 230px;
 }
 
@@ -103,18 +115,5 @@
 
 .alta-usuario #tt1, .alta-usuario #tt2 {
 	font-size: 50px;
-}
-
-.alta-usuario .img-guia {
-	max-width: 620px;
-}
-
-.alta-usuario .llamado {
-	border: 1px dashed #25a8f5;
-	background-color: #d7effd;
-	padding: 20px;
-	max-width: 600px;
-	border-radius: 10px 10px 10px 10px;
--moz-border-radius: 10px 10px 10px 10px;
--webkit-border-radius: 10px 10px 10px 10px;
+	cursor: pointer;
 }
